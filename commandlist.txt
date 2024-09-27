@@ -74,7 +74,7 @@ select * from Customers;
 -i
 sudo -i
 ls
-cd .ssh
+
 ls -al
 ssh-keygen -t rsa -C "ssh-key"
 cat id_rsa.pub 
@@ -148,10 +148,21 @@ vi transfer.sh
 ./transfer.sh
 ls -al
 exiy
-exit
+
 crontab -e
 history
 ls -al
 exiy
 ls -al
 \
+history -w
+history -w
+history
+clear
+history
+ls-al
+ls -al
+ls -al
+history-r
+history-r
+history
