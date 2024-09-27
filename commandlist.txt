@@ -1,0 +1,126 @@
+    1  sudo adduser abhishek
+    2  passwd abhishek
+    3  sudo adduser abhishek
+    4  sudo passwd abhishek
+    5  cd /etc/ssh
+    6  sudo vi /etc/ssh/sshd_config
+    7  exit
+    8  cd ssh
+    9  cd /etc/ssh
+   10  cd /etc/ssh/sshd_config
+   11  sudo vi /etc/ssh/sshd_config
+   12  sudo service sshd restart
+   13  exit
+   14  sudo userdel abhishek
+   15  sudo -i
+   16  sudo userdel -r abhishek
+   17  sudo -i
+   18  sudo adduser abhi
+   19  sudo passwd
+   20  sudo -i
+   21  exit
+   22  sudo -i
+   23  exit
+   24  sudo -i
+   25  exit
+   26  sudo -i
+   27  sudo su
+   28  sudo yum update
+   29  sudo yum install java-21-openjdk-devel
+   30  sudo yum install wget
+   31  wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   32  ls
+   33  ls-lh
+   34  ls -lh
+   35  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   36    wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   37   wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_
+   38  wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   39   sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   40   sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+   41  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   42   cd /opt/oracle/product/21c
+   43  cd dbhomeXE/cv/admin
+   44  sudo vi cvu_config
+   45  cd
+   46  sudo /etc/init.d/oracle-xe-21c
+   47  sudo /etc/init.d/oracle-xe-21c configure
+   48  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   49   export ORACLE_SID=XE
+   50   export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+   51  sqplus
+   52  sqlplus
+   53  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   54   export ORACLE_SID=XE
+   55   export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+   56  sqlplus
+   57  lsnrctl start
+   58  netstat -ltnp
+   59  exit
+   60  ls
+   61  cd /opt
+   62  ls 
+   63  cd oracle
+   64  ls
+   65  cd /opt/oracle/product/21c/dbhomeXE/bin
+   66  sudo bash
+   67  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+   68  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   69   export ORACLE_SID=XE
+   70   export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+   71  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+   72  select * from customers
+   73  select * from Customers;
+   74  -i
+   75  sudo -i
+   76  ls
+   77  cd .ssh
+   78  ls -al
+   79  ssh-keygen -t rsa -C "ssh-key"
+   80  cat id_rsa.pub 
+   81  cd ..
+   82  vi transfer.sh
+   83  git clone git@github.com:abhishek-jangam/training-biz-abhi.git
+   84  ls
+   85  vi transfer.sh 
+   86  sudo bash
+   87  ls -al
+   88  ./transfer.sh 
+   89  rm -rf
+   90  git clone git@github.com:abhishek-jangam/training-biz-abhi.git
+   91  rm -rf training-biz-abhi
+   92  sudo rm -rf training-biz-abhi
+   93  git clone git@github.com:abhishek-jangam/training-biz-abhi.git
+   94  ./transfer.sh 
+   95  cronetab -e
+   96  crontab -e
+   97  crontab -l
+   98  ./transfer.sh 
+   99  history
+  100  vi transfer.sh 
+  101  vi ~/.bash_history 
+  102  vi ~/.bashrc
+  103  ./transfer.sh 
+  104  vi ~/.bashrc
+  105  vi ~/.bash_history 
+  106  vi transfer.sh 
+  107  ./transfer.sh 
+  108  vi transfer.sh 
+  109  history
+  110  ./transfer.sh 
+  111  vi transfer.sh 
+  112  ./transfer.sh 
+  113  ls -al
+  114  cd .
+  115  ./transfer.sh 
+  116  cd .
+  117  who am i
+  118  -v
+  119  ls -al
+  120  cd training-biz-abhi/
+  121  cd ..
+  122  ls
+  123  ./transfer.sh 
+  124  ls -al
+  125  cd .
+  126  ./transfer.sh 
