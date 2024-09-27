@@ -175,3 +175,6 @@ ls -al | grep "txt"
 vi file1.txt
 ls | wc -l
 ls
+vi transfer.sh
+touch a.txt
+ls
