@@ -146,3 +146,6 @@ ls -al
 cat transfer.sh
 vi transfer.sh
 ./transfer.sh
+ls -al
+exiy
+exit
