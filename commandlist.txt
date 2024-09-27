@@ -152,3 +152,5 @@ exit
 crontab -e
 history
 ls -al
+exiy
+ls -al
