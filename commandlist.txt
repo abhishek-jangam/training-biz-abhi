@@ -178,3 +178,4 @@ ls
 vi transfer.sh
 touch a.txt
 ls
+chmod 600 a.txt
