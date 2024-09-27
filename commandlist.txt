@@ -149,3 +149,4 @@ vi transfer.sh
 ls -al
 exiy
 exit
+crontab -e
