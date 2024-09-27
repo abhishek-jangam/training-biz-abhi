@@ -170,3 +170,8 @@ cd
 ls -al
 ls -al | grep "file1"
 vi file1.txt
+ssh-keygen -t rsa -C "ssh-key"
+ls -al | grep "txt"
+vi file1.txt
+ls | wc -l
+ls
